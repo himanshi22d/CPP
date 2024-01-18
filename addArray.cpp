@@ -12,7 +12,7 @@ void addTwoArrays(vector<int>& a, vector<int>& b) {
     int j = m - 1;
     int k = ans.size() - 1;
     int carry = 0;
-    while (k > 0) {
+    while (k >= 0) {
         int sum = carry;
         if (i >= 0) {
             sum += a[i];
