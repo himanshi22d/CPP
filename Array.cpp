@@ -3,7 +3,6 @@ Ques: Take array as an input and display the array
 Solution: 
 #include <iostream>
 using namespace std;
-
 int main() {
     int size;
     cin>>size;
